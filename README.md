@@ -108,13 +108,3 @@ The script outputs the following results:
 * Summary tables in pandas DataFrames comparing the performance of the two algorithms.
 
 The results demonstrate the performance of K-means and DBSCAN on datasets with different characteristics. K-means performs well on datasets with well-defined, spherical clusters (Datasets 1 and 2), while DBSCAN excels at identifying clusters with arbitrary shapes and handling noise (Datasets 3 and 4).
-
-## Future Enhancements
-
-* Explore other clustering algorithms (e.g., Agglomerative Clustering, Spectral Clustering).
-* Experiment with different parameter settings for K-means and DBSCAN.
-* Evaluate the algorithms on real-world datasets.
-* Add more visualization options (e.g., 3D plots for higher-dimensional data).
-* Implement methods for automatically determining the optimal number of clusters (K) for K-means.
-* Incorporate techniques for handling high-dimensional data.
-* Add more cluster validity indices.
